@@ -1,0 +1,37 @@
+.mainmanu {
+    display: flex;
+    align-items: center;
+    background-color: tan;
+    justify-content: space-between;
+}
+
+.logo1 {
+    height: 100px;
+    width: 220px;
+    margin-left: 30px;
+}
+
+ol, li{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+    font-style: bold;
+    font-family: "Anaheim", sans-serif;
+    font-weight: 600px;
+
+
+} 
+li a {
+    text-decoration: none;
+}
+
+.manubutton button {
+    border: none;
+    padding: 10px 40px;  
+    font-size: 25px;
+    background-color: rgb(5, 152, 23);
+    border-radius: 20px;
+    margin-right: 30px;
+    color: aliceblue;
+}
